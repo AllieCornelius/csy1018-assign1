@@ -1,0 +1,47 @@
+body {
+    background-color: #cceeff;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #002233;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+li {
+    float:  left;
+    padding: 10px;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+}
+
+.a-portrait {
+    display: flex;
+    width: 250px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
