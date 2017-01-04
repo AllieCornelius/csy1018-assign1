@@ -1,6 +1,11 @@
+html{
+  height: 100%;
+}
 body {
     background-color: #cceeff;
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 ul {
@@ -10,7 +15,6 @@ ul {
     background-color: #002233;
     font-family: 'Amatic SC', cursive;
     margin: 0;
-    padding: 1em;
 }
 
 li {
@@ -30,6 +34,11 @@ li a {
     text-decoration: none;
     font-size: 1.5em;
 }
+.wrapper{
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 20px;
+}
 .aclogo{
   float: right;
   width:75px;
@@ -39,9 +48,8 @@ li a {
 
 .footer {
     position: absolute;
-    right: 0;
-    bottom: 0;
     left: 0;
+    right:0;
     padding: 1rem;
     background-color: #002233;
     text-align: center;
@@ -57,6 +65,13 @@ li a {
     text-shadow: 4px 4px 4px #aaa;
     text-align: center;
 }
+.subheading{
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px;
+  text-shadow: 4px 4px 4px #aaa;
+  text-align: left;
+  margin-left: 20px;
+}
 
 .a-portrait {
     display: flex;
@@ -65,18 +80,46 @@ li a {
     margin-left: auto;
     margin-right: auto;
 }
-.biographytext {
+.biographytext1 {
   font-family: 'Josefin Slab', serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #000000;
-  float: left;
-
+  text-align: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
 }
+
+.biographytext2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.biographytext3 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
 .bungeeimg{
   float: right;
   width: 200px;
   height: 200px;
-  word-wrap: normal;
-
-
+  margin-right: 20px;
+}
+.bosnia1{
+  margin-right:auto;
+  margin-left: auto;
+  width: 450px;
+  height: 350px;
+  display: flex;
 }
