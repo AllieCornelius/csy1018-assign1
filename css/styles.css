@@ -1,6 +1,7 @@
-html{
-  height: 100%;
+html {
+    height: 100%;
 }
+
 body {
     background-color: #cceeff;
     margin: 0;
@@ -8,7 +9,7 @@ body {
     height: 100%;
 }
 
-ul {
+ul.nav {
     list-style-type: none;
     padding: 1rem;
     overflow: hidden;
@@ -17,39 +18,40 @@ ul {
     margin: 0;
 }
 
-li {
-    float: left;;
+ul.nav li {
+    float: left;
     padding: 10px;
-    border-right:3px solid #ffffff;
+    border-right: 3px solid #ffffff;
 }
 
-li:last-child {
-    border-right:none;
+ul.nav li:last-child {
+    border-right: none;
 }
 
-li a {
+ul.nav li a {
     display: block;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
     font-size: 1.5em;
 }
-.wrapper{
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 20px;
-}
-.aclogo{
-  float: right;
-  width:75px;
-  height: 75px;
 
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.aclogo {
+    float: right;
+    width: 75px;
+    height: 75px;
 }
 
 .footer {
     position: absolute;
     left: 0;
-    right:0;
+    right: 0;
     padding: 1rem;
     background-color: #002233;
     text-align: center;
@@ -66,14 +68,21 @@ li a {
     text-align: center;
     text-decoration: underline;
 }
-.subheading{
+
+.subheading {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: left;
+    margin-left: 20px;
+}
+.subheading2{
   font-family: 'Josefin Slab', serif;
-  font-size: 30px;
+  font-size: 25px;
   text-shadow: 4px 4px 4px #aaa;
   text-align: left;
   margin-left: 20px;
 }
-
 .a-portrait {
     display: flex;
     width: 250px;
@@ -81,15 +90,16 @@ li a {
     margin-left: auto;
     margin-right: auto;
 }
+
 .biographytext1 {
-  font-family: 'Josefin Slab', serif;
-  font-size: 20px;
-  color: #000000;
-  text-align: left;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
-  display: flex;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
 }
 
 .biographytext2 {
@@ -101,6 +111,7 @@ li a {
     margin-left: 20px;
     display: flex;
 }
+
 .biographytext3 {
     font-family: 'Josefin Slab', serif;
     font-size: 20px;
@@ -113,39 +124,43 @@ li a {
 }
 
 @media screen and(max-width:480px) {
-  .biographytext2{
-    column-count:2;
-  }
+    .biographytext2 {
+        column-count: 2;
+    }
+}
 
+.bungeeimg {
+    float: right;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex
 }
-.bungeeimg{
-  float: right;
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
-  margin-left: 20px;
 
+.bosnia1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 350px;
+    display: flex;
 }
-.bosnia1{
-  margin-right:auto;
-  margin-left: auto;
-  width: 600px;
-  height: 350px;
-  display: flex;
-}
-.form1{
- margin: auto;
- width: 12%;
- font-family: 'Josefin Slab', serif;
- padding-bottom: 10px;
- font-size: 15px;
 
+.form1 {
+    margin: auto;
+    width: 12%;
+    font-family: 'Josefin Slab', serif;
+    padding-bottom: 10px;
+    font-size: 15px;
 }
-input[type=text]{
-  display: flex;
-  padding-bottom: 10px;
-  width: 100%;
+
+input[type=text] {
+    display: flex;
+    padding-bottom: 10px;
+    width: 100%;
 }
+
 input[type=submit] {
     width: 100%;
     background-color: #002233;
@@ -157,23 +172,93 @@ input[type=submit] {
     cursor: pointer;
     font-family: 'Josefin Slab', serif;
     font-size: 15px;
-
 }
 
 input[type=submit]:hover {
     background-color: #45a049
 }
-#query{
-  padding: 30px;
+
+#query {
+    padding: 30px;
 }
-.contacttext{
+
+.contacttext {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.personalprof {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.cvimg {
+    float: right;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+ul.schools {
+    list-style-type: none;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: 'Josefin Slab', serif;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+}
+ul.schools li{
+  padding-bottom: 5px;
+}
+
+.experience{
   font-family: 'Josefin Slab', serif;
   font-size: 20px;
   color: #000000;
   text-align: left;
   margin-right: 20px;
   margin-left: 20px;
-  padding-bottom: 20px;
   display: flex;
-
+}
+.skills{
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  display: flex;
+}
+.homeicon{
+  height:35px;
+  width:35px;
+align-items: center;
+display: flex;
+}
+.bioicon{
+  height:35px;
+  width:35px;
+  align-items: center;
+  display: flex;
+}
+.contacticon{
+  height:35px;
+  width:35px;
+  align-items: center;
+  display: flex;
 }
