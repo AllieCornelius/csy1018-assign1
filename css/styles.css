@@ -108,13 +108,21 @@ li a {
     margin-right: 20px;
     margin-left: 20px;
     display: flex;
+    margin-bottom: 20px;
 }
 
+@media screen and(max-width:480px) {
+  .biographytext2{
+    column-count:2;
+  }
+
+}
 .bungeeimg{
   float: right;
   width: 200px;
   height: 200px;
   margin-right: 20px;
+  margin-left: 20px;
 }
 .bosnia1{
   margin-right:auto;
