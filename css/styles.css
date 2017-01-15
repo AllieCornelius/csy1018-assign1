@@ -1,3 +1,5 @@
+/*Mogammad Allie Cornelius   Student Number: 16423743*/
+
 html {
     height: 100%;
 }
@@ -9,7 +11,7 @@ body {
     height: 100%;
 }
 
-ul.nav {
+.nav {
     list-style-type: none;
     padding: 0.5rem;
     overflow: hidden;
@@ -18,18 +20,22 @@ ul.nav {
     margin: 0;
 }
 
-ul.nav li {
+.nav li {
     float: left;
     padding: 15px;
 }
 
-ul.nav li a {
-    display: block;
+.nav li a {
+    display: flex;
     color: #ffffff;
     text-align: center;
     text-decoration: none;
     font-size: 1.8em;
+    list-style-type: none;
 }
+
+
+/*lines 13-33 is the styles that are applied to the navigation pane. This tells the browser how to display the content.*/
 
 .wrapper {
     min-height: 100%;
@@ -53,12 +59,12 @@ ul.nav li a {
     text-decoration: underline;
     color: #ffffff;
     font-family: 'Amatic SC', cursive;
-    font-size: 20px;
+    font-size: 1.250em;
 }
 
 .title-text {
     font-family: 'Josefin Slab', serif;
-    font-size: 45px;
+    font-size: 2.8125em;
     text-shadow: 4px 4px 4px #aaa;
     text-align: center;
     text-decoration: underline;
@@ -66,7 +72,7 @@ ul.nav li a {
 
 .subheading {
     font-family: 'Josefin Slab', serif;
-    font-size: 30px;
+    font-size: 1.875em;
     text-shadow: 4px 4px 4px #aaa;
     text-align: left;
     margin-left: 20px;
@@ -74,7 +80,7 @@ ul.nav li a {
 
 .subheading2 {
     font-family: 'Josefin Slab', serif;
-    font-size: 25px;
+    font-size: 1.5625em;
     text-shadow: 4px 4px 4px #aaa;
     text-align: left;
     margin-left: 20px;
@@ -90,7 +96,7 @@ ul.nav li a {
 
 .biographytext1 {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000000;
     text-align: left;
     margin-bottom: 20px;
@@ -101,7 +107,7 @@ ul.nav li a {
 
 .biographytext2 {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000000;
     text-align: left;
     margin-right: 20px;
@@ -111,7 +117,7 @@ ul.nav li a {
 
 .biographytext3 {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000000;
     text-align: left;
     margin-right: 20px;
@@ -120,11 +126,13 @@ ul.nav li a {
     margin-bottom: 20px;
 }
 
-@media screen and(max-width:480px) {
+
+/*@media screen and(max-width:480px) {
     .biographytext2 {
         column-count: 2;
     }
 }
+*/
 
 .bungeeimg {
     float: right;
@@ -150,7 +158,7 @@ ul.nav li a {
     font-family: 'Josefin Slab', serif;
     padding-top: 50px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 input[type=text] {
@@ -169,7 +177,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     display: flex;
 }
 
@@ -181,9 +189,12 @@ input[type=submit]:hover {
     padding: 30px;
 }
 
+
+/*code from lines 150-185 is related to the form on the contact page. All the code contained within these lines, guides the browser on how to display the content on the webpage. These styles are all used to match the style of my website and to ensure that a similar style is applied to all of the elements on the webpage.*/
+
 .contacttext {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000000;
     text-align: left;
     margin-right: 20px;
@@ -194,7 +205,7 @@ input[type=submit]:hover {
 
 .personalprof {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000000;
     text-align: left;
     margin-right: 20px;
@@ -218,7 +229,7 @@ ul.schools {
     padding-bottom: 20px;
     font-family: 'Josefin Slab', serif;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.25em;
     display: flex;
 }
 
@@ -228,7 +239,7 @@ ul.schools li {
 
 .experience {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000000;
     text-align: left;
     margin-right: 20px;
@@ -238,7 +249,7 @@ ul.schools li {
 
 .skills {
     font-family: 'Josefin Slab', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #000000;
     text-align: left;
     margin-right: 20px;
@@ -277,3 +288,12 @@ ul.schools li {
     display: flex;
     padding-top: 10px;
 }
+
+
+/*all icons used are from https://www.iconfinder.com/ all icons are copyright free.*/
+
+
+/*all fonts are expressed in terms of "em" to calculate px to em i had  used a calculator provided by w3schools @ http://www.w3schools.com/tags/ref_pxtoemconversion.asp*/
+
+
+/*CSS validated to have 0 errors. CSS has been validated using https://jigsaw.w3.org/css-validator */
