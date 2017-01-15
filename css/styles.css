@@ -11,18 +11,21 @@ body {
     height: 100%;
 }
 
-.nav ul{
+.nav ul {
     list-style-type: none;
     padding: 0.5rem;
     overflow: hidden;
     background-color: #002233;
     font-family: 'Amatic SC', cursive;
     margin: 0;
+    display: flex;
 }
 
 .nav li {
     float: left;
     padding: 15px;
+    list-style-type: none;
+    display: flex;
 }
 
 .nav li a {
@@ -126,7 +129,9 @@ footer {
     margin-bottom: 20px;
 }
 
+
 /*this is used to set the style for the different divs on the biography page.*/
+
 
 /*@media screen and(max-width:480px) {
     .biographytext2 {
@@ -237,6 +242,8 @@ ul.schools {
 ul.schools li {
     padding-bottom: 5px;
 }
+
+
 /*there is consistent use of padding to ensure that there is enough whitespace around elements of the webpage, this makes it easier for people to read and adds to the overall aesthetics of the website. */
 
 .experience {
